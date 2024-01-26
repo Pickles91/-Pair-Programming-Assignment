@@ -20,7 +20,7 @@ Examples of applications:
 
  
 
-            Display an animated board enabling users to score at different levels of difficulty.
+**Display an animated board enabling users to score at different levels of difficulty.
 
 Display multiple items and enable users to add items into a cart.
 
