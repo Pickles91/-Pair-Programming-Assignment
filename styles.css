@@ -8,9 +8,9 @@ body {
 }
 
 .container {
-    max-width: 600px;
+    max-width: 500px;
     margin: 20px auto;
-    background-image: url("/paper.jpg");
+    background-image: url("/scroll.png");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -23,8 +23,60 @@ header {
     text-align: center;
 }
 
-h1 {
+h1 { 
+    font-family: MedievalSharp; 
+    font-size: 24px; 
+    font-style: normal; 
+    font-variant: normal; 
+    font-weight: 700; 
+    line-height: 26.4px; 
+
     color: #8b4513;
+} 
+
+span {
+    font-family: MedievalSharp; 
+    font-size: 14px; 
+    font-style: normal; 
+    font-variant: normal; 
+    font-weight: 700; 
+    line-height: 15.4px; 
+}
+
+h3 { 
+    font-family: MedievalSharp; 
+    font-size: 14px; 
+    font-style: normal; 
+    font-variant: normal; 
+    font-weight: 700; 
+    line-height: 15.4px; 
+} 
+    
+p { 
+    font-family: MedievalSharp; 
+    font-size: 14px; 
+    font-style: normal; 
+    font-variant: normal; 
+    font-weight: 400; 
+    line-height: 20px; 
+} 
+
+blockquote { 
+    font-family: MedievalSharp; 
+    font-size: 21px; 
+    font-style: normal; 
+    font-variant: normal; 
+    font-weight: 400; 
+    line-height: 30px; 
+} 
+
+pre { 
+    font-family: MedievalSharp; 
+    font-size: 13px; 
+    font-style: normal; 
+    font-variant: normal; 
+    font-weight: 400; 
+    line-height: 18.5714px; 
 }
 
 #todo-list {
