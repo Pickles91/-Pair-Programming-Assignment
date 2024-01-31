@@ -10,7 +10,7 @@ body {
 .container {
     max-width: 500px;
     margin: 20px auto;
-    background-image: url("/scroll.png");
+    background-image: url("/paper.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
