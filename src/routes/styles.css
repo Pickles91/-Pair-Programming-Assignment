@@ -1,6 +1,6 @@
 body {
     font-family: 'Times New Roman', serif;
-    background-image: url("/Background.jpg");
+    background-image: url("Background.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     margin: 0;
@@ -21,6 +21,7 @@ body {
 
 header {
     text-align: center;
+    background-color: white;
 }
 
 h1 { 

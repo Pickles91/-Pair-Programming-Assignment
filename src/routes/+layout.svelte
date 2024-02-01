@@ -1,11 +1,19 @@
 <script>
   import "./styles.css";
 </script>
+
+<header>
+  <h1>Quest To-Do List</h1>
+  <nav>
+    <a href="/"> Home! </a>
+    <a href="/shop"> Shop! </a>
+  </nav>
+</header>
+
 <main>
-  <header>
-    <h1>Quest To-Do List</h1>
-  </header>
-  <slot />
+  <div class="container">
+    <slot />
+  </div>
 </main>
 
 <style>
@@ -17,6 +25,12 @@
   }
   li > p {
     flex-grow: 1;
+  }
+  header > h1 {
+    margin: 0;
+  }
+  nav > a {
+    padding: 0.5rem 1rem;
   }
 </style>
 

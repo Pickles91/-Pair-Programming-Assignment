@@ -132,6 +132,8 @@
   id="add-btn" 
   on:click={() => addTask(taskInput, parseInt(difficulty))}
 >Add</button>
+
+
 <style>
   li > p {
     flex-grow: 1;
